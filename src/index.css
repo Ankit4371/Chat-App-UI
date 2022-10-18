@@ -19,7 +19,7 @@ input {
 button{
   border: none;
   padding: 10px;
-  background: green;
+  background: rgb(218, 38, 246);
   color:#fff;
   font-size: 1.2em;
   font-weight: bold;
@@ -42,7 +42,7 @@ button{
 .chat-box{
   box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048),0 12.5px 10px rgba(0, 0, 0, 0.06),0 22.3px 17.9px rgba(0, 0, 0, 0.072),0 41.8px 33.4px rgba(0, 0, 0, 0.086),0 100px 80px rgba(0, 0, 0, 0.12);
   margin:40px 50px;
-  height: 600px;
+  height: 800px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -92,11 +92,11 @@ ul {
   box-shadow: 0 8px 8px -4px lightblue;
 }
 .member.active{
-  background: rgb(226, 43, 217);
+  background: rgb(6, 26, 237);
   color:#fff;
 }
 .member:hover{
-  background: rgb(128, 128, 128);
+  background: rgb(39, 62, 43);
   color:#fff;
 }
 
@@ -108,7 +108,7 @@ ul {
 }
 .avatar.self{
   color:#000;
-  background-color: greenyellow;
+  background-color: rgb(218, 38, 246);
 }
 .message{
   padding:5px;
